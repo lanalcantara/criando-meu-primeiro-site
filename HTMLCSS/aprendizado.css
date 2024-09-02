@@ -1,0 +1,177 @@
+head {
+    color: #000000;
+}
+
+header h1 {
+    color: rgb(197, 83, 83);
+    background-color: #272727;
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+   
+}
+
+button {
+    background-color: hsl(0, 60%, 57%);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px 9px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover {
+    background-color: #c08cc5;
+}
+
+.container {
+    display: flex; /* Flexbox para alinhar imagens lado a lado */
+    justify-content: space-around; /* Espaçamento uniforme entre as imagens */
+    align-items: center; /* Alinha as imagens verticalmente ao centro */
+    margin: 50px auto; /* Centraliza o container e adiciona margem */
+}
+
+.container img {
+    max-width: 30%; /* Faz com que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+}
+.carousel-images {
+    display: flex; /* Alinha as imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens no contêiner */
+    align-items: center; /* Alinha verticalmente as imagens */
+    gap: 10px; /* Espaçamento entre as imagens */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    padding: 20px;
+}
+.carousel-images img {
+    width: 300px; /* Define uma largura fixa para as imagens */
+    height: 200px; /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+body {
+    text-align: center;
+    background-color: #000000;
+    
+}
+
+#formulario-id {
+    color: hsl(0, 33%, 98%); 
+    background-color: hsl(0, 60%, 57%); 
+    text-align: left; 
+    display: flex;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 50px; 
+    margin-right: 60px;
+    justify-content: center; 
+    flex-wrap: flex;  
+}
+#segundo-formulario {
+    color: hsl(0, 33%, 98%); 
+    background-color: hsl(0, 60%, 57%); 
+    text-align: right; 
+    padding: 10px; 
+    border-radius: 50px; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-right: 60px;
+}
+ol {
+    display: flex; 
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    list-style-type: none; /* Remove os marcadores dos itens da lista */
+    margin: 5; /* Remove a margem padrão da lista */
+    justify-content: center;
+}
+
+ol li {
+    margin-right: 60px; /* Adiciona um espaço entre os itens */
+}
+
+ol a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: hsl(0, 33%, 98%); /* Cor do texto do link */
+}
+
+ol p {
+    margin: 5; /* Remove a margem padrão do parágrafo */
+}
+#dl-id {
+        font-family: Arial, sans-serif; /* Define a fonte para a lista */
+        margin: 50; /* Remove a margem padrão */
+        padding: 70; /* Remove o preenchimento padrão */
+        display: flex
+    }
+    
+    #dl-id dt {
+        font-weight: bold; /* Destaca os termos da lista */
+        margin-top: 20px; /* Espaçamento superior entre os termos */
+    }
+    
+    #dl-id dd {
+        margin: 0 auto 10px auto; /* Centraliza o dd e adiciona espaço abaixo */
+        display: block; /* Assegura que o conteúdo fique em bloco */
+        text-align: center; /* Centraliza o texto e a imagem */
+        max-width: 150px;
+    }
+    
+    #dl-id img {
+    width: 150px; /* Define uma largura fixa para todas as imagens */
+    height: 150px; /* Define uma altura fixa para todas as imagens */
+    object-fit: cover; /* Corta a imagem para que ela se ajuste ao contêiner mantendo a proporção */
+    border-radius: 10px; /* Mantém os cantos arredondados */
+    margin-bottom: 5px;  /* Arredonda os cantos das imagens */
+    }
+    
+    #dl-id span {
+    display: block; /* Garante que o texto fique abaixo da imagem */
+    margin-top: 5px; /* Espaço entre a imagem e o texto */
+    font-size: 14px; 
+    color: hsl(0, 33%, 98%); 
+    margin: 0 auto;
+}
+    .lista-container {
+    flex: 30; 
+    margin: 0 200px;
+    }
+    .form-container {
+        flex: 10px; 
+        margin: 0 10px; 
+        min-width: 0px; 
+        justify-content: space-between; 
+        border-radius: 20px; 
+    }
+    form {
+        display: center; 
+        flex-direction: block; 
+        gap: 10px; /* Espaço entre os elementos do formulário */
+        padding: 20px; 
+        border-radius: 20px; 
+        background-color: hsl(0, 60%, 57%); 
+        color: hsl(0, 33%, 98%); 
+    }
+    #conect{
+        justify-content: center; 
+        flex-wrap: flex; 
+        margin: 020px;
+        padding: 20px;  
+
+    }
